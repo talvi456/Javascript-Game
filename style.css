@@ -1,0 +1,154 @@
+h2{
+  margin: 0px;
+  margin-bottom: 20px;
+}
+p{
+  margin: 0px;
+}
+.content{
+  width: 100%;
+}
+.gameboard{
+    background-color: #dcdcdc;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 20px;
+    width: 125px;
+}
+.box {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-family: helvetica;
+    font-size: 35px;
+    text-align: center;
+}
+.box:hover {
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-family: helvetica;
+    font-size: 35px;
+    text-align: center;
+}
+.col {
+    width: 41px;
+    float: left;
+}
+.playerOne {
+  float: left;
+  margin: 0px;
+  padding: 5px;
+
+}
+.playerTwo {
+  float: right;
+  margin: 0px;
+  padding: 5px;
+}
+.P-one {
+  /*background-color: #1E90FF;*/
+  background-color: lightblue;
+
+}
+
+.P-two {
+  /*background-color: #DC143C;*/
+  background-color: pink;
+}
+
+
+/*-------------ALL 18 SQUARES
+/*square one*/
+.rowOneColOneX{
+  color: #1E90FF;
+}
+.rowOneColOneO{
+  color: #DC143C;
+}
+
+/*square two*/
+.rowTwoColOneX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowTwoColOneO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square three*/
+.rowThreeColOneX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowThreeColOneO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square four*/
+.rowOneColTwoX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowOneColTwoO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square five*/
+.rowTwoColTwoX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowTwoColTwoO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square six*/
+.rowThreeColTwoX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowThreeColTwoO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square seven*/
+.rowOneColThreeX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowOneColThreeO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square eight*/
+.rowTwoColThreeX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowTwoColThreeO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+/*square nine*/
+.rowThreeColThreeX{
+  /*display: none;*/
+  color: #1E90FF;
+}
+.rowThreeColThreeO{
+  /*display: none;*/
+  color: #DC143C;
+}
+
+.show{
+  display: inline;
+}
